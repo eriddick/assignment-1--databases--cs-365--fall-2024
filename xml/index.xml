@@ -1,3 +1,80 @@
 <?xml verion="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet type="text/css" href="style.css"?>
 <!DOCTYPE student SYSTEM "student.dtd">
+
+<student>
+  <name first="Gordan"
+        middle="Matthew"
+        last="Summer">
+    <preferred-name>Sting</preferred-name>
+    <student-id id="1234567">
+    <email email="sting@thepolice.com">
+    <phone phone="212.123.4567">
+    <status year="first">
+    <gpa>4.0</gpa>
+    <major>Music</major>
+    <minor>English</minor>
+    <status year="full-time">
+    <advisor name="Andy Summers">
+    <enrollment-date>08-25-1969</enrollment-date>
+    <graduation-date>05-01-1973</graduation-date>
+  <name first="Kim"
+        middle=
+        last="Thayil">
+    <preferred-name></preferred-name>
+    <student-id id="4567890">
+    <email email="kim@soundgarden.com">
+    <phone>206.123.4567</phone>
+    <status year="second">
+    <gpa>3.0</gpa>
+    <major>Philosophy</major>
+    <minor>Music</minor>
+    <status year="full-time">
+    <advisor name="Chris Cornell">
+    <enrollment-date>08-25-19678</enrollment-date>
+    <graduation-date>05-01-1982</graduation-date>
+  <name first="Saul"
+        middle=
+        last="Hudson">
+    <preferred-name>Slash</preferred-name>
+    <student-id id="8302438">
+    <email email="slash@gnr.com">
+    <phone phone="213.456.8392">
+    <status year="fourth">
+    <gpa>2.0</gpa>
+    <major>Music</major>
+    <minor>Criminal Justice</minor>
+    <status year="part-time">
+    <advisor name="Axl Rose">
+    <enrollment-date>08-25-1983</enrollment-date>
+    <graduation-date>05-01-1987</graduation-date>
+  <name first="Emily"
+        middle=
+        last="Kokal">
+    <preferred-name></preferred-name>
+    <student-id id="29839228">
+    <email>emily@warpaint.com</email>
+    <phone phone="213.123.7654">
+    <status year="third">
+    <gpa>3.8</gpa>
+    <major>Political Science</major>
+    <minor>Law</minor>
+    <status year="full-time">
+    <advisor name="Jenny Lee Lindberg">
+    <enrollment-date>08-25-1998</enrollment-date>
+    <graduation-date>05-01-2002</graduation-date>
+  <name first="Mike"
+        middle=
+        last="Inez">
+    <preferred-name></preferred-name>
+    <student-id id="7645726">
+    <email>mike@aic.com</email>
+    <phone phone="212.123.4567">
+    <status year="second">
+    <gpa>4.0</gpa>
+    <major>Business Management</major>
+    <minor>Math</minor>
+    <status year="full-time">
+    <advisor name="Jerry Cantrell">
+    <enrollment-date>08-25-1984</enrollment-date>
+    <graduation-date>05-01-1988</graduation-date>
