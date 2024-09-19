@@ -1,0 +1,76 @@
+{
+  "students": [
+    {
+      "id": "1234567",
+      "name": {
+        "first": "Gordan",
+        "middle": "Matthew",
+        "last": "Summer",
+        "preferredName": "Sting"
+      },
+      "contacts": {
+        "email": "sting@thepolice.com",
+        "phone": "212.123.4567"
+      },
+      "academics": {
+        "gpa": 4.0,
+        "major": "Music",
+        "minor": "English",
+        "status": {
+          "year": "first",
+          "time": "full-time"
+        },
+        "advisor": "Andy Summers",
+        "enrollmentDate": "08-25-1969",
+        "graduationDate": "05-01-1973"
+      }
+    },
+    {
+      "id": "4567890",
+      "name": {
+        "first": "Kim",
+        "last": "Thayil"
+      },
+      "contacts": {
+        "email": "kim@soundgarden.com",
+        "phone": "206.123.4567"
+      },
+      "academics": {
+        "gpa": 3.0,
+        "major": "Philosophy",
+        "minor": "Music",
+        "status": {
+          "year": "second",
+          "time": "full-time"
+        },
+        "advisor": "Chris Cornell",
+        "enrollmentDate": "08-25-1978",
+        "graduationDate": "05-01-1982"
+      }
+    },
+    {
+      "id": "8302438",
+      "name": {
+        "first": "Saul",
+        "last": "Hudson",
+        "preferredName": "Slash"
+      },
+      "contacts": {
+        "email": "slash@gnr.com",
+        "phone": "213.456.8392"
+      },
+      "academics": {
+        "gpa": 2.0,
+        "major": "Music",
+        "minor": "Criminal Justice",
+        "status": {
+          "year": "fourth",
+          "time": "part-time"
+        },
+        "advisor": "Axl Rose",
+        "enrollmentDate": "08-25-1983",
+        "graduationDate": "05-01-1987"
+      }
+    }
+  ]
+}
