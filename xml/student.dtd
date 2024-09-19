@@ -9,6 +9,8 @@
 <!ELEMENT enrolled-student (name,contacts,academics)>
 <!ELEMENT name             (preferred-name?)>
 <!ELEMENT contacts         (email,phone)>
+<!ELEMENT email            EMPTY>
+<!ELEMENT phone            EMPTY>
 <!ELEMENT academics        (gpa,major,minor,status,advisor,enrollment-date)>
 <!ELEMENT gpa              (#PCDATA)>
 <!ELEMENT major            (#PCDATA)>
@@ -25,6 +27,10 @@
           middle CDATA #IMPLIED
           last CDATA #REQUIRED
           preferred-name CDATA #IMPLIED>
+<!ATTLIST email
+          email CDATA #REQUIRED>
+<!ATTLIST phone
+          phone CDATA #REQUIRED>
 <!ATTLIST status
           year (first|second|third|fourth) #REQUIRED
           time (full-time|part-time) #REQUIRED>
