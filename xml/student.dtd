@@ -1,0 +1,30 @@
+<!--
+  The root element: student
+  The root element must contain one or more enrolled-student elements
+  -->
+<!ELEMENT student (enrolled-student)+>
+<!--
+  An enrolled-student must contain one name, one contacts, and one academics
+  -->
+<!ELEMENT enrolled-student (name,contacts,academics)>
+<!ELEMENT name             (preferred-name?)>
+<!ELEMENT contacts         (email,phone)>
+<!ELEMENT academics        (gpa,major,minor,status,advisor,enrollment-date)>
+<!ELEMENT gpa              (#PCDATA)>
+<!ELEMENT major            (#PCDATA)>
+<!ELEMENT minor            (#PCDATA)>
+<!ELEMENT status           EMPTY>
+<!ELEMENT advisor          (#PCDATA)>
+<!ELEMENT enrollment-date  (#PCDATA)>
+<!ELEMENT graduation-date  (#PCDATA)>
+
+<!ATTLIST enrolled-student
+          id CDATA #REQUIRED>
+<!ATTLIST name
+          first CDATA #REQUIRED
+          middle CDATA #IMPLIED
+          last CDATA #REQUIRED
+          preferred-name CDATA #IMPLIED>
+<!ATTLIST status
+          year (first|second|third|fourth) #REQUIRED
+          time (full-time|part-time) #REQUIRED>
