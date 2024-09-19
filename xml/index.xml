@@ -9,8 +9,8 @@
           last="Summer"
           preferred-name="Sting"/>
     <contacts>
-      <email>sting@thepolice.com</email>
-      <phone>212.123.4567</phone>
+      <email email="sting@thepolice.com">
+      <phone phone="212.123.4567">
     </contacts>
     <academics>
       <gpa>4.0</gpa>
@@ -27,8 +27,8 @@
     <name first="Kim"
           last="Thayil"/>
     <contacts>
-      <email>kim@soundgarden.com</email>
-      <phone>206.123.4567</phone>
+      <email email="kim@soundgarden.com">
+      <phone phone="206.123.4567">
     </contacts>
     <academics>
       <gpa>3.0</gpa>
@@ -46,8 +46,8 @@
           last="Hudson"
           preferred-name="Slash"/>
     <contacts>
-      <email>slash@gnr.com</email>
-      <phone>213.456.8392</phone>
+      <email email="slash@gnr.com">
+      <phone phone"213.456.8392">
     </contacts>
     <academics>
       <gpa>2.0</gpa>
@@ -64,8 +64,8 @@
     <name first="Emily"
           last="Kokal"/>
     <contacts>
-      <email>emily@warpaint.com</email>
-      <phone>213.123.7654</phone>
+      <email email="emily@warpaint.com">
+      <phone phone="213.123.7654">
     </contacts>
     <academics>
       <gpa>3.8</gpa>
@@ -82,8 +82,8 @@
     <name first="Mike"
           last="Inez"/>
     <contacts>
-      <email>mike@aic.com</email>
-      <phone>212.123.4567</phone>
+      <email email="mike@aic.com">
+      <phone phone="212.123.4567">
     </contacts>
     <academics>
       <gpa>4.0</gpa>
