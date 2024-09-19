@@ -1,0 +1,207 @@
+:root,
+:root::before,
+students,
+enrolled-student,
+enrolled-student::before,
+name,
+contacts,
+academics {
+  display: block;
+}
+
+:root {
+  width: 800px;
+  font: 200 16px 'Nunito Sans', sans-serif;
+}
+
+:root::before {
+  content: 'Enrolled Students';
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 24px 0;
+  display: block;
+}
+
+enrolled-student {
+  margin-bottom: 24px;
+  border-bottom: 1px solid;
+  padding-bottom: 16px;
+  margin-left: 4px;
+}
+
+enrolled-student::before {
+  content: 'Student ID: ' attr(id);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+  display: block;
+}
+
+name::before {
+  content: 'Name: ' attr(first) ' ' attr(middle) ' ' attr(last);
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 4px 0;
+  display: block;
+}
+
+name[preferred-name]::after {
+  content: ' (Preferred Name: ' attr(preferred-name) ')';
+  font-weight: 200;
+}
+
+contacts::before {
+  content: 'Contact Information:';
+  font-weight: 500;
+  display: block;
+  margin-top: 12px;
+}
+
+contacts email {
+  display: block;
+  margin-top: 4px;
+  margin-left: 24px;
+}
+
+contacts email::before {
+  content: 'Email: ';
+  font-weight: bold;
+}
+
+contacts email::after {
+  content: attr(email);
+}
+
+contacts phone {
+  display: block;
+  margin-top: 4px;
+  margin-left: 24px;
+}
+
+contacts phone::before {
+  content: 'Phone: ';
+  font-weight: bold;
+}
+
+contacts phone::after {
+  content: attr(phone);
+}
+
+academics::before {
+  content: 'Academic Information:';
+  font-weight: 500;
+  display: block;
+  margin-top: 12px;
+}
+
+academics gpa {
+  display: block;
+  margin-top: 4px;
+  margin-left: 24px;
+}
+
+academics gpa::before {
+  content: 'GPA: ';
+  font-weight: bold;
+}
+
+academics gpa::after {
+  content: attr(gpa);
+  display: inline;
+}
+
+academics major {
+  display: block;
+  margin-top: 4px;
+  margin-left: 24px;
+}
+
+academics major::before {
+  content: 'Major: ';
+  font-weight: bold;
+}
+
+academics major::after {
+  content: attr(major), "  |  ";
+  display: inline;
+}
+
+academics minor {
+  display: block;
+  margin-top: 4px;
+  margin-left: 24px;
+}
+
+academics minor::before {
+  content: 'Minor: ';
+  font-weight: bold;
+}
+
+academics minor::after {
+  content: attr(minor);
+  display: inline;
+}
+
+status {
+  display: block;
+  margin-top: 4px;
+  margin-left: 24px;
+}
+
+status::before {
+  content: 'Status: ';
+  font-weight: bold;
+}
+
+status::after {
+  content: 'Year: ' attr(year) ', Time: ' attr(time);
+  display: inline;
+}
+
+advisor {
+  display: block;
+  margin-top: 4px;
+  margin-left: 24px;
+}
+
+advisor::before {
+  content: 'Advisor: ';
+  font-weight: bold;
+}
+
+advisor::after {
+  content: attr(name);
+  display: inline;
+}
+
+enrollment-date {
+  display: block;
+  margin-top: 4px;
+  margin-left: 24px;
+}
+
+enrollment-date::before {
+  content: 'Enrollment Date: ';
+  font-weight: bold;
+}
+
+enrollment-date::after {
+  content: attr(date);
+  display: inline;
+}
+
+graduation-date {
+  display: block;
+  margin-top: 4px;
+  margin-left: 24px;
+}
+
+graduation-date::before {
+  content: 'Graduation Date: ';
+  font-weight: bold;
+}
+
+graduation-date::after {
+  content: attr(date);
+  display: inline;
+}
